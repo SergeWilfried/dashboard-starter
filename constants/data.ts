@@ -92,7 +92,7 @@ export const users: User[] = [
   },
 ];
 
-export type Employee = {
+export type Transaction = {
   id: number;
   first_name: string;
   last_name: string;
@@ -125,10 +125,10 @@ export const navItems: NavItem[] = [
     label: "user",
   },
   {
-    title: "Employee",
-    href: "/dashboard/employee",
-    icon: "employee",
-    label: "employee",
+    title: "Transaction",
+    href: "/dashboard/transaction",
+    icon: "transaction",
+    label: "transaction",
   },
   {
     title: "Profile",
