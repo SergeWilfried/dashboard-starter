@@ -59,7 +59,7 @@ interface ProductFormProps {
   categories: any;
 }
 
-export const TransactionForm: React.FC<ProductFormProps> = ({
+export const ProductForm: React.FC<ProductFormProps> = ({
   initialData,
   categories,
 }) => {

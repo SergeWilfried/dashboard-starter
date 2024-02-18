@@ -92,7 +92,7 @@ export const users: User[] = [
   },
 ];
 
-export type Transaction = {
+export type Product = {
   id: number;
   first_name: string;
   last_name: string;
@@ -119,16 +119,22 @@ export const navItems: NavItem[] = [
     label: "Dashboard",
   },
   {
-    title: "User",
+    title: "Users",
     href: "/dashboard/user",
     icon: "user",
     label: "user",
+  },  
+  {
+    title: "Accounts",
+    href: "/dashboard/user",
+    icon: "user",
+    label: "account",
   },
   {
-    title: "Transaction",
-    href: "/dashboard/transaction",
-    icon: "transaction",
-    label: "transaction",
+    title: "Products",
+    href: "/dashboard/product",
+    icon: "product",
+    label: "product",
   },
   {
     title: "Profile",
